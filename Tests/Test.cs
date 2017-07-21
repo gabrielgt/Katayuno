@@ -21,7 +21,7 @@ namespace Tests
         }
 
         [Fact]
-        public void Bar_DoBar_Returns_BarFoo()
+        public void Bar_DoBar_Returns_Bar()
         {
             // arrange
             var sut = new Bar();
@@ -30,7 +30,7 @@ namespace Tests
             var result = sut.DoBar();
 
             // assert
-            result.Should().Be("BarFoo");
+            result.Should().Be("Bar");
         }
     }
 }
